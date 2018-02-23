@@ -161,8 +161,8 @@ public class PythonInterpreter extends Interpreter implements ExecuteResultHandl
     gatewayServer = new GatewayServer(this,
         port,
         GatewayServer.DEFAULT_PYTHON_PORT,
-        InetAddress.getByName("0.0.0.0"),
-        InetAddress.getByName("0.0.0.0"),
+        InetAddress.getByName("127.0.0.1"),
+        InetAddress.getByName("127.0.0.1"),
         GatewayServer.DEFAULT_CONNECT_TIMEOUT,
         GatewayServer.DEFAULT_READ_TIMEOUT,
         (List) null);
